@@ -1,33 +1,38 @@
-body{font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+
+    /* text colors */
+    --accent-cl: #ff6c00;
+    --main-txt-cl: #555555;
+    --secondary-txt-cl: #ffffff;
+
+    /* bacground colors */
+    --main-bg-cl: #ffffff;
+    --secondary-bg-cl: #f7f7f7;
+    --dark-bg-cl: #191c26;
+body
+
+     { --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
     background-color: #FFFFFF;}
 a{text-decoration: none;}
 /*Шапка*/
-header {position: absolute;
-width: 1600px;
-height: 80px;
-left: 0px;
-top: 0px;}
+header {}
 .logo{font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-color: #2196F3;
-position: absolute;
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;}
-.logo_blak{font-family: 'Raleway';
+color: #2196F3;}
+.logo-black{font-family: 'Raleway';
 font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
 color: #000000;}
 
-a{font-style: normal;
-font-weight: 500;
+a{font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -35,60 +40,27 @@ color: #212121;}
 a:hover {color:#2196F3;}
 
 /*Навигация*/
-.studio {position: absolute;
-width: 49px;
-height: 16px;
-left: 453px;
-top: 32px;}
+.studio {}
 
-.portfolio {position: absolute;
-width: 77px;
-height: 16px;
-left: 552px;
-top: 32px;}
+.portfolio {}
 
-.contakt {position: absolute;
-width: 68px;
-height: 16px;
-left: 679px;
-top: 32px;}
+.contakt {}
 /*Контакты*/
 
-.mail_header {position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;}
+.mail_header {}
 
-.tel_header {position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;}
+.tel_header {}
 
 
 
 
 /*Герой*/
-.hirro {position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;
-background: #2F303A;}
+.hirro {background: #2F303A;}
 /**/
 
-.title {position: absolute;
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 900;
+.title {font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
-text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;}
