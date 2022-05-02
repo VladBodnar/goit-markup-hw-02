@@ -12,11 +12,12 @@
     --secondary-bg-cl: #f7f7f7;
     --dark-bg-cl: #191c26;
 body
-
-     { --main-font: 'Roboto', sans-serif;
+     {--main-font: 'Roboto',
+    sans-serif;
     --secondary-font: 'Raleway', sans-serif;
     background-color: #FFFFFF;}
 a{text-decoration: none;}
+ul{list-style: none;}
 /*Шапка*/
 header {}
 .logo{font-family: 'Raleway';
