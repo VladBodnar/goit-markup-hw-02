@@ -219,7 +219,7 @@ color: var(--accent-cl);
     letter-spacing: 0.03em;    
     color: var(--secondary-txt-cl)
 }
-.mail footer {
+.email  {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -228,7 +228,7 @@ color: var(--accent-cl);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
-.tel footer {
+.phone {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -236,5 +236,5 @@ color: var(--accent-cl);
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    
 }
-/**/
