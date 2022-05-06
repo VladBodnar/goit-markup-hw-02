@@ -193,3 +193,7 @@ color: var(--accent-cl);
     color: rgba(255, 255, 255, 0.6);
     
 }
+
+.content {
+    background-color: var(--main-bg-cl);
+}
