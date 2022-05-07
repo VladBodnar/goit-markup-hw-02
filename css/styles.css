@@ -16,6 +16,7 @@
   --btn-bg-cl: #2196f3;
   --btn-bg-accent: #188ce8;
 }
+
 body {
   font-family: var(--main-font);
   font-style: normal;
@@ -45,19 +46,21 @@ header {
 }
 .logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1, 19;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
+
 .logo-black {
   color: #000000;
 }
+
 .logo-white {
   color: #ffffff;
 }
+
 .studio,
 .portfolio,
 .contakt {
@@ -65,12 +68,14 @@ header {
   line-height: 1.14;
   color: var(--text-cl);
 }
+
 .mail,
 .tel {
   font-weight: 500;
   line-height: 1.14;
   color: var(--main-txt-cl);
 }
+
 .mail:hover,
 .tel:hover {
   color: var(--accent-cl);
@@ -81,6 +86,7 @@ header {
 .hero {
   background-color: var(--dark-bg-cl);
 }
+
 .title {
   font-weight: 900;
   font-size: 44px;
@@ -90,15 +96,14 @@ header {
   text-transform: uppercase;
   color: var(--secondary-txt-cl);
 }
+
 .btn {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--secondary-txt-cl);
-
   background: var(--btn-bg-cl);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -114,23 +119,25 @@ header {
 .benefits {
   background-color: var(--main-bg-cl);
 }
+
 .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-
   letter-spacing: 0.03em;
   color: var(--text-cl);
 }
+
 .subtitle {
   font-weight: 700;
-
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--text-cl);
 }
+
 .text {
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-txt-cl);
@@ -160,15 +167,11 @@ header {
 }
 
 /*Контент портфолио*/
-.content {
-  background-color: var(--main-bg-cl);
-}
 
 /*Фильтра*/
 
 .filter {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -181,8 +184,7 @@ header {
 
 .filter:hover,
 .filter:focus {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -193,9 +195,9 @@ header {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
-
-  /*Страницы*/
 }
+
+/*Страницы*/
 
 .page {
   font-weight: 700;
@@ -217,17 +219,23 @@ header {
 .footer {
   background-color: var(--dark-bg-cl);
 }
-.location {
-  font-style: normal;
 
+.address {
+  font-style: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.location {
   color: var(--secondary-txt-cl);
 }
+
 .email,
 .phone {
-  font-style: normal;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.email:hover,
+.phone:hover {
+  color: var(--accent-cl);
 }
