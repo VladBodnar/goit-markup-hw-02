@@ -19,7 +19,6 @@
 
 body {
   font-family: var(--main-font);
-  font-style: normal;
   font-size: 14px;
   line-height: 1.86;
   letter-spacing: 0.02em;
@@ -116,10 +115,6 @@ header {
 
 /*Преимущества*/
 
-.benefits {
-  background-color: var(--main-bg-cl);
-}
-
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -130,6 +125,7 @@ header {
 
 .subtitle {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -141,12 +137,6 @@ header {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-txt-cl);
-}
-
-/*Деятельность*/
-
-.section-titl {
-  display: none;
 }
 
 /*Команда*/
